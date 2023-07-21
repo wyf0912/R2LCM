@@ -15,6 +15,7 @@ In Arxiv'2023
 - Our extension work "**Beyond Learned Metadata-based Raw Image Reconstruction**" is available at [Arxiv](https://arxiv.org/pdf/2306.12058.pdf), which has a better rate-distortion performance and covers a wider range of bpp.
 ## Overall 
 ### Motivation
+![Alt text](image.png)
 ![Alt text](images/overall.png)
 Different from the previous
 work where the sampling strategy is hand-crafted or learned by a pre-defined sampling loss, we learn the sampling and reconstruction process in a unified end-to-end manner. In addition, the sampling of previous works is in the raw pixel space, which in fact still includes a large amount of spatial redundancy and precision redundancy. Instead, we
@@ -37,7 +38,6 @@ conda activate R2LCM
 3. Install Dependencies
 ```cd R2LCM
 pip install -e .
-pip install tqdm seaborn rawpy pyyaml opencv-python exifread
 ```
 
 ### Dataset
@@ -112,3 +112,10 @@ If you find our work useful for your research, please cite our papers
   year={2023}
 }
 ```
+
+Please feel free to contact me if you have any questions yufei001@ntu.edu.sg.
+
+# Acknowledgement & License
+We borrow the codes from [CompressAI](https://github.com/InterDigitalInc/CompressAI) which is under the BSD 3-Clause Clear License.
+
+Our work is for non-commerical usage.
