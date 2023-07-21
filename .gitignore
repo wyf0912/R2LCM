@@ -163,3 +163,4 @@ core.*
 *.tif
 
 !images/*.*
+!README.md
