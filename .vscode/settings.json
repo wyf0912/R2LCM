@@ -1,0 +1,13 @@
+{
+    "files.watcherExclude": {
+        "**/checkpoints": true,
+        "**/error_map": true,
+        "**/new_error_map": true,
+        "**/results": true,
+        "**/results_csv": true,
+        "build/**": true
+    },
+    "search.exclude": {
+        "build/**": true
+    }
+}
