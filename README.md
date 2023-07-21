@@ -15,7 +15,6 @@ In Arxiv'2023
 - Our extension work "**Beyond Learned Metadata-based Raw Image Reconstruction**" is available at [Arxiv](https://arxiv.org/pdf/2306.12058.pdf), which has a better rate-distortion performance and covers a wider range of bpp.
 ## Overall 
 ### Motivation
-![Alt text](image.png)
 ![Alt text](images/overall.png)
 Different from the previous
 work where the sampling strategy is hand-crafted or learned by a pre-defined sampling loss, we learn the sampling and reconstruction process in a unified end-to-end manner. In addition, the sampling of previous works is in the raw pixel space, which in fact still includes a large amount of spatial redundancy and precision redundancy. Instead, we
