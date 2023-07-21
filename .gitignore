@@ -16,6 +16,9 @@ datasets/*
 experiments/
 draw_figure_for_paper/
 !scripts/test_nus_cvpr22.sh
+!examples/config_files/journal_cvpr22_J4.py
+
+
 # Created by gitignore.io
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -158,3 +161,5 @@ tests/
 *.ipynb
 core.*
 *.tif
+
+!images/*.*
