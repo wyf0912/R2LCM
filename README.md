@@ -86,10 +86,10 @@ CUDA_VISIBLE_DEVICES=3 python3 examples/train_raw.py --quality 1 --model learned
 ## Some useful scripts
 Here are some scripts which maybe useful.
 
-| Model | Download Link |
+| File name | Usage |
 | - | - |
-| jpg_bpp.py | Calculate the bpp of the JPEG dataset given the specific image quality|
-| remove_boarder.py | Remove the boarder of the error map drawn by the seaborn |
+| ./jpg_bpp.py | Calculate the bpp of the JPEG dataset given the specific image quality|
+| ./remove_boarder.py | Remove the boarder of the error map drawn by the seaborn |
 
 
 
