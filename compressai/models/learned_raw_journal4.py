@@ -44,7 +44,7 @@ class JpegConditionedSequential(nn.Sequential):
         
     def forward(self, input, x_jpg, lam_embedding=None):
         for idx, module in enumerate(self):
-            if isinstance(module, (nn.ReLU, nn.LeakyReLU, MaskedDeconv, PCALayer)) or module.__dict__.get("no_srgb", False):
+            if isinstance(module, (nn.ReLU, nn.LeakyReLU, PCALayer)) or module.__dict__.get("no_srgb", False): # MaskedDeconv
                 input = module(input)
             elif isinstance(module, (LambdaCondition)):
                 input = module(input, lam_embedding)
