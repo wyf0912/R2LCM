@@ -107,8 +107,9 @@ If you find our work useful for your research, please cite our papers
 @article{wang2023beyond,
   title={Beyond Learned Metadata-based Raw Image Reconstruction},
   author={Wang, Yufei and Yu, Yi and Yang, Wenhan and Guo, Lanqing and Chau, Lap-Pui and Kot, Alex C and Wen, Bihan},
-  journal={arXiv preprint arXiv:2306.12058},
-  year={2023}
+  journal={International Journal of Computer Vision},
+  year={2024},
+  publisher={Springer}
 }
 ```
 
