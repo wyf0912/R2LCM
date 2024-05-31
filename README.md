@@ -1,4 +1,4 @@
-# [CVPR 2023] Raw Image Reconstruction with Learned Compact Metadata
+# [CVPR'23/IJCV'24] Raw Image Reconstruction with Learned Compact Metadata
 
 This repo is for the following two works:
 
@@ -8,7 +8,7 @@ In CVPR'2023
 
 **Beyond Learned Metadata-based Raw Image Reconstruction** [[Paper]](https://arxiv.org/pdf/2306.12058.pdf) 
 <br>_Yufei Wang, Yi Yu, Wenhan Yang, Lanqing Guo, Lap-Pui Chau, Alex Kot, Bihan Wen_<br>
-In Arxiv'2023
+In IJCV'2024
 
 
 ## News
